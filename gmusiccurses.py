@@ -69,9 +69,9 @@ def songselect():
     global lastpos
     screen.clear()
     screen.border(0)
-    menuitems = ["Bat Out of Hell","Wonton Soup","Highway Star","Dark Side of Me","Welcome Home","Real Big","Canary in a Coalmine","Radar Love","Forest Whitaker","Here Today","No One Knows","Tom Sawyer","Yyz","Questionable Ethics 1","Forget About Freeman","Turn the Page","Old Time Rock and Roll","Back in Black","Hells Bells","God Is on the Radio"]
+    
     menuitems = []
-    songdata = [["Bat Out of Hell","Bat Out of Hell","Meatloaf","1982"],["Wonton Soup","Wonton Soup","Lil B","2010"]]
+    songdata = []
     mainsonglist = api.get_all_songs()
     mainsonglist = sorted(mainsonglist,key=lambda k: k["title"])
     for s in range(0,len(mainsonglist)-1):
