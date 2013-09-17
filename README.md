@@ -9,7 +9,7 @@ Install
 =============
 Requies:
 
-Pyton 2.7.x
+Python 2.7.x
 Unnoficial Google Music API by Simon Weber (intstall with 'pip install gmusicapi')
 MPlayer
 
