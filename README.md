@@ -1,7 +1,7 @@
 gmusic-curses
 =============
 
-Google Play Music player with a ncurses frontend written in python. Very basic, and not all that reliable, will be imporved
+Google Play Music player with a ncurses frontend written in Python. Very basic, and not all that reliable, will be imporved
 upon in the future.
 
 
