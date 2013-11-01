@@ -149,7 +149,7 @@ def songselect():
             try:
                 screen.addstr(16,2,menuitems[currstart+14],h)
             except UnicodeEncodeError:
-                menuuitems[currstart+14] = "Encoding Error"
+                menuitems[currstart+14] = "Encoding Error"
                 screen.addstr(16,2,menuitems[currstart+14],n)
         else:
             try:
